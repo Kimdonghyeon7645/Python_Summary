@@ -1,3 +1,8 @@
+"""
+블로그 포스팅 : https://bodhi-sattva.tistory.com/59
+(좀더 세부적으로 정리했습니다.)
+"""
+
 a = 1
 b = 0
 c = -9
