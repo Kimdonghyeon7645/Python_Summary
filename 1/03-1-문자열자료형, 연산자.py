@@ -1,3 +1,7 @@
+"""
+블로그 포스팅 : https://bodhi-sattva.tistory.com/64
+"""
+
 s1 = "hi"
 s2 = 'five'
 s3 = '''ㅋ'''
