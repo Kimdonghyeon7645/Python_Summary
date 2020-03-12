@@ -1,3 +1,7 @@
+"""
+블로그포스팅 : https://bodhi-sattva.tistory.com/61
+"""
+
 b1 = True
 b2 = False
 print(b1, type(b1), b2, type(b2))
