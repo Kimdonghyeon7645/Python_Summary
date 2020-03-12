@@ -1,3 +1,7 @@
+"""
+블로그 포스팅 : https://bodhi-sattva.tistory.com/65
+"""
+
 no_char = "언젠가 파이썬 정리도 끝나겠지?"
 print(no_char[2], no_char[-4])
 """인덱싱, 슬라이싱:
