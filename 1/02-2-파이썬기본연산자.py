@@ -1,3 +1,7 @@
+"""
+블로그포스팅 : https://bodhi-sattva.tistory.com/62
+"""
+
 a = 10
 b = 6
 print(a + b, a - b, a * b, a / b, a ** b, a // b, a % b)
