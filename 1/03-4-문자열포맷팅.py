@@ -1,3 +1,9 @@
+"""
+블로그 포스팅 (포맷팅방식) : https://bodhi-sattva.tistory.com/67
+블로그 포스팅 (형식지정자) : https://bodhi-sattva.tistory.com/68
+세세하게 정리하느라 주제에따라 글을 두개로 나눠서 보기 편하게 했습니다.
+"""
+
 # -*- coding: utf-8 -*-
 # 정리하는데 2일 잡아먹었다... 생고생 제대로 하니까 허탈하다.
 formating = '포맷팅'
