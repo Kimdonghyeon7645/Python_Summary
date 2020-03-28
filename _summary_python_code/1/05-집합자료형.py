@@ -1,3 +1,6 @@
+"""
+블로그링크 : https://bodhi-sattva.tistory.com/81
+"""
 s1 = {1, 2, 1}
 s2 = {}
 s3 = set([1, 2, 3])
@@ -12,6 +15,16 @@ set() 함수로 군집자료형(여러개 값들)을 집합자료형으로 변�
 참고로 생성할 때 {}같이 하면, 같은 테두리를 쓰는 dic 자료형이 된다... 따로 집합자료형의 빈 상태를 만들려면 set()을 사용해야된다.
 
 순서가 없어서 인덱싱과 슬라이싱은 못한다.(가능한 자료형으로 변환후 사용할 수 밖에)
+"""
+fs1 = frozenset([1, 2, 3])
+fs2 = frozenset(s1)
+print(fs1, type(fs1))
+print(fs2, type(fs2))
+fs1.
+"""frozenset(읽기전용집합):
+frozenset은 집합중 읽기전용 집합으로, 집합자료형(set)과 성질이 똑같지만,
+frozenset()함수로 선언할 수 있고, 읽기전용이기에 요소의 수정, 삭제가 불가능하다.
+그 이외에는 set자료형과 같게 사용할 수 있다.
 """
 s01 = {1, 2}
 s02 = {2, 3}
@@ -36,8 +49,9 @@ temp_s.update([5, 6, 7])
 print(temp_s)
 ''' .update() 함수: 요소 여러개를 전달받아 집합에 추가'''
 temp_s.remove(7)
+temp_s.discard(6)
 print(temp_s)
-''' .remove() 함수: 요소를 집합에서 삭제
+''' .remove() .discard() 함수: 요소를 집합에서 삭제
 .discard() 함수도 똑같은 일을 수행하는데, 차이점은 remove()는 삭제할 요소가 없으면 에러를 발생시키고 discard()는 그러지 않는다.
 '''
 a = {1, 2, 3}
