@@ -1,3 +1,7 @@
+"""
+블로그 링크 : https://bodhi-sattva.tistory.com/69
+"""
+
 list_1 = [1, 2, 3, 4, 5]
 list_2 = []
 list_3 = list()
