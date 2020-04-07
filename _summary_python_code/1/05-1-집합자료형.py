@@ -20,7 +20,7 @@ fs1 = frozenset([1, 2, 3])
 fs2 = frozenset(s1)
 print(fs1, type(fs1))
 print(fs2, type(fs2))
-fs1.
+
 """frozenset(읽기전용집합):
 frozenset은 집합중 읽기전용 집합으로, 집합자료형(set)과 성질이 똑같지만,
 frozenset()함수로 선언할 수 있고, 읽기전용이기에 요소의 수정, 삭제가 불가능하다.
@@ -32,13 +32,19 @@ print(s01 & s02, s01 | s02, s01 - s02, s01 ^ s02)
 """집합 연산:
 집합자료형답게 교집합(논리곱), 합집합(논리합), 차집합 연산을 할 수 있다. (and, or 는 여기서 못 쓴다)
 대칭차집합 연산(^)이라고(합집합 - 교집합) 두집합에서 안겹치는 것들의 집합도 구할 수 있다. 
+
+추가로 집합연산 + 대입연산의 형태인 집합복합대입연산자? 도 가능하다.
+다시말해, &=, |=, -=, ^= 가 가능하다.
+또한 부분집합과 진부분집합도 연산자가 있는데, 부분집합은 >=, <= 기호, 진부분집합은 >, < 기호를 이용하면 된다. 
 """
 
 print(s01.intersection(s02), s01.union(s02), s01.difference(s02), s01.symmetric_difference(s02))
 """집합 함수:
-이러한 
+이러한 집합연산은 집합함수로도 연산할 수 있다.
 .intersection() 교집합 함수, .union() 합집합 함수, <빼기전집합>.difference(<빼는집합>) 차집합 함수와
-.symmetric_difference() 대칭차집합 함수를 사용해서 똑같은 결과를 낼 수 있다. 그외의 함수는...
+.symmetric_difference() 대칭차집합 함수를 사용해서 똑같은 결과를 낼 수 있다.
+ .issubset()와 .issuperset() 부분집합 함수도 이와 같다.
+ 그외의 함수는...
 """
 
 temp_s = {1, 2, 3}
@@ -64,3 +70,5 @@ print(a.issuperset(b))
 '''
 print(a.isdisjoint(b))
 ''' .isdisjoint() 함수: 두 집합에서 교집합이 없는지 참 거짓으로 반환'''
+
+
