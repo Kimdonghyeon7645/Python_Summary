@@ -30,3 +30,14 @@ print(list(map(str, x)))
 print(list(map(str, [x[i] for i in x])))
 # ->  ['10', '20', '30'] dict 의 value 값을 사용
 
+
+"""
+map()함수에 변환할 객체를 여러개 사용할 수도 있다.
+람다표현식이랑 주로 합해서 사용하는데(3>4 람다표현식응용 참고) 변환할 객체가 제한이 없다.
+"""
+a = [1, 2, 3, 4]
+b = [4, 3, 2, 1]
+print(list(map(lambda a1, a2: a1+a2, a, b)))
+c = [10, 20, 30, 40]
+d = reversed(c)
+print(list(map(lambda b1, b2, b3, b4: b1+b2+b3+b4, a, b, c, d)))
