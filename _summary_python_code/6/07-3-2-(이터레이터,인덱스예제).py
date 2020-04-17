@@ -38,3 +38,9 @@ for i in TimeIterator(start, stop):
     print(i)
 
 print('\n', TimeIterator(start, stop)[index], sep='')
+"""
+이터레이터를 사용해서, 처음 시간과 끝 시간까지를 시:분:초 형식으로 출력하는 프로그램
+
+입력받는 값이 3가지인데 start = 처음 시간(초단위), stop = 끝 시간(초단위), index = 특정시간(인덱스번호)
+"""
+
