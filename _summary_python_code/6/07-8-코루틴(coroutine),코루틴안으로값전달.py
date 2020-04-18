@@ -25,7 +25,7 @@ COoperative ROUTINE 의 약자 코루틴의 뜻은 서로 협력하는 루틴이
 
 
 def hi_corotine():
-    while True:
+    while True:     # 보통 코루틴은 실행 상태를 유지하기 위해 무한 루프를 사용
         print((yield))
 
 
