@@ -29,3 +29,7 @@ lines = f.readlines()
 Today = Lunch(lines[0], lines[1], lines[2], lines[3])
 print(Today)
 f.close()
+
+""" 급식표 보는 프로그램:
+클래스와 예외처리, 파일 개념을 모두 종합해서 응용한 예제
+"""
