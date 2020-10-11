@@ -13,20 +13,20 @@
 
 ## Reference
 
-파이썬 코딩도장, 점프투 파이썬의 전체흐름을 뼈대로 해서, 자잘하지만 그전에 정리한 내용들을 덧붙여  
-제대로된 기본정리를 하려합니다.
+파이썬 코딩도장, 점프 투 파이썬과 학교 파이썬 수업을 뼈대로 작성하였습니다.
 
-***
+- 파이썬 코딩도장 : [링크](https://dojang.io/course/view.php?id=7)
+- 점프 투 파이썬 : [링크](https://wikidocs.net/book/1)
 
-### 연결되는 링크,
+그 후에는 파이썬으로 다양한 분야를 도전해보거나, 파이썬으로 알고리즘을 풀면서, 파이썬 문법을 공부하였습니다.
 
-파이썬 코딩도장
-    
-    링크 : https://dojang.io/course/view.php?id=7
+- 장고, DRF 공부 : [바로가기](https://github.com/Kimdonghyeon7645/django-girls_study_with_Ask-company)
+- 크롤링, 셀레니움 공부 : [바로가기](https://github.com/Kimdonghyeon7645/python_crawling_study)
+- 알고리즘 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Problem-Solving)
+- numpy, 데이터 분석 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Python-Data-Analysis)
 
-점프 투 파이썬
+문법에 관해서는 웹 사이트와 도서, 그리고 선배 정리등을 참고하여 지금도 공부하고 있습니다.
 
-    링크 : https://wikidocs.net/book/1
-    
-
+- 북마크 목록 : [바로가기](https://github.com/Kimdonghyeon7645/Python_Summary/tree/master/bookmark_list.md)
+- 선배 repo : [바로가기](https://github.com/JoMingyu/--Awesome-Python--)
 
