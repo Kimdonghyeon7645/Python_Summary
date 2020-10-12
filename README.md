@@ -14,27 +14,7 @@
 그 배움을 즐기는 태도를 끝까지 지키도록 하겠습니다 ^^7
 ```
 
-## 참고
-
-파이썬 코딩도장, 점프 투 파이썬과 학교 파이썬 수업을 뼈대로 작성하였습니다.
-
-- 파이썬 코딩도장 : [링크](https://dojang.io/course/view.php?id=7)
-- 점프 투 파이썬 : [링크](https://wikidocs.net/book/1)
-
-그 후에는 파이썬으로 다양한 분야를 도전해보거나, 파이썬으로 알고리즘을 풀면서, 파이썬 문법을 공부하였습니다.
-
-- 장고, DRF 공부 : [바로가기](https://github.com/Kimdonghyeon7645/django-girls_study_with_Ask-company)
-- 크롤링, 셀레니움 공부 : [바로가기](https://github.com/Kimdonghyeon7645/python_crawling_study)
-- 알고리즘 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Problem-Solving)
-- numpy, 데이터 분석 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Python-Data-Analysis)
-
-문법에 관해서는 웹 사이트와 도서, 그리고 선배 정리등을 참고하여 지금도 공부하고 있습니다.
-
-- 북마크 목록 : [바로가기](https://github.com/Kimdonghyeon7645/Python_Summary/tree/master/bookmark_list.md)
-- 선배 repo : [바로가기](https://github.com/JoMingyu/--Awesome-Python--)
-
-
-## 바로가기
+## 목차
 
 ### 마크다운(.md) 정리 ~~(예정)~~
 ```markdown
@@ -177,3 +157,22 @@
  ┃ ┃ ┗ 📜09-(급식표프로그램,클래스,예외처리,파일응용).py
  ┃ ┗ 📜readme.md
 ```
+
+## 참고
+
+파이썬 코딩도장, 점프 투 파이썬과 학교 파이썬 수업을 뼈대로 작성하였습니다.
+
+- 파이썬 코딩도장 : [링크](https://dojang.io/course/view.php?id=7)
+- 점프 투 파이썬 : [링크](https://wikidocs.net/book/1)
+
+그 후에는 파이썬으로 다양한 분야를 도전해보거나, 파이썬으로 알고리즘을 풀면서, 파이썬 문법을 공부하였습니다.
+
+- 장고, DRF 공부 : [바로가기](https://github.com/Kimdonghyeon7645/django-girls_study_with_Ask-company)
+- 크롤링, 셀레니움 공부 : [바로가기](https://github.com/Kimdonghyeon7645/python_crawling_study)
+- 알고리즘 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Problem-Solving)
+- numpy, 데이터 분석 공부 : [바로가기](https://github.com/Kimdonghyeon7645/Python-Data-Analysis)
+
+문법에 관해서는 웹 사이트와 도서, 그리고 선배 정리등을 참고하여 지금도 공부하고 있습니다.
+
+- 북마크 목록 : [바로가기](https://github.com/Kimdonghyeon7645/Python_Summary/tree/master/bookmark_list.md)
+- 선배 repo : [바로가기](https://github.com/JoMingyu/--Awesome-Python--)
